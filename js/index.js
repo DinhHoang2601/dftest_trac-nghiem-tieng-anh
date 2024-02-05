@@ -36,7 +36,7 @@ function scrollAnimated() {
   for (var i = 0; i < scrollAnimateds.length; i++) {
     var windowHeight = window.innerHeight;
     var scrollAnimatedTop = scrollAnimateds[i].getBoundingClientRect().top;
-    var scrollAnimatedPoint = 100;
+    var scrollAnimatedPoint = 50;
 
     if (scrollAnimatedTop < windowHeight - scrollAnimatedPoint) {
       scrollAnimateds[i].classList.add("active");
